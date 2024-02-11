@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'customfont';
+    src: url('Affectionately\ Yours\ -\ TTF.ttf') format('truetype');
+}
+
+.text {
+    font-size: 1.5em;
+    font-family: 'customfont', sans-serif;
+    color: white;
+    font-weight: bold;
+    word-wrap: break-word;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+}
